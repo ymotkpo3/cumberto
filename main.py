@@ -13,7 +13,7 @@ async def on_message(message):
         return
 
     mensaje1 = message.content.lower()
-    mensajeR = re.findall('cum', mensaje1)
+    mensajeR = re.findall(' cum ', mensaje1)
 
     if mensajeR:
         await message.reply("lo que te encanta:sweat_drops:")
