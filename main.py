@@ -13,9 +13,12 @@ async def on_message(message):
         return
 
     mensaje1 = message.content.lower()
-    mensajeR = re.findall(' cum ', mensaje1)
+    mensajeA = re.findall(' cum ', mensaje1)
+    mensajeB = re.findall(' cum', mensaje1)
+    mensajeC = re.findall('cum ', mensaje1)
+    mensajeD = re.findall('cum', mensaje1)
 
-    if mensajeR:
+    if mensajeA or mensajeB or mensajeC or mensajeD:
         await message.reply("lo que te encanta:sweat_drops:")
 
 client.run('ODMwNTM5NjQyOTY0Mjc5MzI4.YHIKUQ.1qr7Koqf4hnjGjkEEVpO526Napg')
