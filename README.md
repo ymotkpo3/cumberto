@@ -11,3 +11,12 @@ palabra/frace | resultado
 ------------ | -------------
 "cum"| responde "lo que te encanta" cuando detecta que en el mensaje se contiene la secuencia de caracteres C U M
 "creo que..." | responde con un embed de un gif del fbi entrando a una casa con un texto que dice "Corea del Norte be like"
+Secreto | es secreto, descubrelo
+
+
+###### Funciones a futuro
+
+- [x] Que responda a la palabra "cum"
+- [x] Que responda a la frace "creo que..."
+- [x] Agregar uno secreo 
+- [ ] No se, surgen en momentos graciosos con amigos
