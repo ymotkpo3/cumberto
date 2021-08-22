@@ -1,7 +1,7 @@
 # CUMBOT
 ![imagen del bot](https://cdn.discordapp.com/attachments/851964916344422491/879071713676103804/bot-icon-1.png)
 
-## Un nbot divertido
+## Un bot divertido
 
 Constantemente analiza los mensajes que se mandan para detectar patrones a los que le responda con una respuesta con el objetivo de trelear al que escribio eso
 
