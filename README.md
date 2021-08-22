@@ -20,3 +20,6 @@ Secreto | es secreto, descubrelo
 - [x] Que responda a la frace "creo que..."
 - [x] Agregar uno secreo 
 - [ ] No se, surgen en momentos graciosos con amigos
+
+
+agradecimientos a @defeeeee
