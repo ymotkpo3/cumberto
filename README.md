@@ -1,4 +1,4 @@
-# CUMBOT
+# CUMBERTO
 ![imagen del bot](https://cdn.discordapp.com/attachments/851964916344422491/879075589368205352/XJELtwhE.jpeg)
 
 ## Un bot divertido
