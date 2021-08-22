@@ -1,5 +1,4 @@
-import discord
-import re
+import discord, re, keep_alive
 
 client = discord.Client()
 
@@ -11,15 +10,20 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-
+    
     mensaje1 = message.content.lower()
-    mensajeA = re.findall(' cum ', mensaje1)
-    mensajeB = re.findall(' cum', mensaje1)
-    mensajeC = re.findall('cum ', mensaje1)
     mensajeD = re.findall('cum', mensaje1)
+    mensajeH = re.findall('pija', mensaje1)
+    mensajeI = re.findall('creo que', mensaje1)
 
-    if mensajeA or mensajeB or mensajeC or mensajeD:
+    if mensajeI:
+        embed = discord.Embed(title="Corea del norte be like", )
+        embed.set_image(url='https://c.tenor.com/HUd6Vl_d47cAAAAd/fbi.gif')
+        await message.reply(embed=embed)
+    if mensajeD:
         await message.reply("lo que te encanta:sweat_drops:")
+    if mensajeH:
+        await message.reply("lo que te encanta:eggplant:")
 
-client.run('ODMwNTM5NjQyOTY0Mjc5MzI4.YHIKUQ.1qr7Koqf4hnjGjkEEVpO526Napg')
-
+keep_alive.keep_alive()
+client.run('ODMwNTM5NjQyOTY0Mjc5MzI4.YHIKUQ.HSUd2IxRrXV5-EvwS-uqWJfmX-s')
