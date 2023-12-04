@@ -1,7 +1,7 @@
 import discord, re
 import os
 from dotenv import load_dotenv
-client = discord.Client(intents=discord.Intents.default())
+client = discord.Client(intents=discord.Intents.all())
 
 load_dotenv()
 
