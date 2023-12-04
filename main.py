@@ -1,6 +1,9 @@
-import discord, re, keep_alive
+import discord, re
+import os
+from dotenv import load_dotenv
+client = discord.Client(intents=discord.Intents.default())
 
-client = discord.Client()
+load_dotenv()
 
 @client.event
 async def on_ready():
@@ -25,5 +28,4 @@ async def on_message(message):
     if mensajeH:
         await message.reply("lo que te encanta:eggplant:")
 
-keep_alive.keep_alive()
-client.run('ODMwNTM5NjQyOTY0Mjc5MzI4.YHIKUQ.HSUd2IxRrXV5-EvwS-uqWJfmX-s')
+client.run(os.getenv('TOKEN'))
