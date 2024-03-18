@@ -18,6 +18,7 @@ async def on_message(message):
     mensajeD = re.findall('cum', mensaje1)
     mensajeH = re.findall('pija', mensaje1)
     mensajeI = re.findall('creo que', mensaje1)
+    mensajej = re.findall('caca', mensaje1)
 
     if mensajeI:
         embed = discord.Embed(title="Corea del norte be like", )
@@ -27,5 +28,7 @@ async def on_message(message):
         await message.reply("lo que te encanta:sweat_drops:")
     if mensajeH:
         await message.reply("lo que te encanta:eggplant:")
+    if mensaje:
+        await message.reply("lo que a Fede le encanta:poop:")
 
 client.run(os.getenv('TOKEN'))
