@@ -28,7 +28,7 @@ async def on_message(message):
         await message.reply("lo que te encanta:sweat_drops:")
     if mensajeH:
         await message.reply("lo que te encanta:eggplant:")
-    if mensaje:
+    if mensajej:
         await message.reply("lo que a Fede le encanta:poop:")
 
 client.run(os.getenv('TOKEN'))
